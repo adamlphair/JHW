@@ -11,9 +11,9 @@ public class ForgetfulMachine {
     keyboard.nextInt();
 
     System.out.println("Enter a number between 0.0 and 1.0.");
-    keyboard.nextDouble();
+    keyboard.nextDouble(); //Answering with a string will cause an error
 
     System.out.println("Is there anything else you would like to say?");
-    keyboard.next(); 
+    keyboard.next();
   }
 }
