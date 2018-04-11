@@ -26,7 +26,12 @@ import java.util.Scanner;
       System.out.println( x + " is GREATER THAN / EQUAL TO " + y + ": " + f);
       System.out.println();
 
-      System.out.println( !(x <y) + " " + (x > y) );
-      
+      System.out.println( !(x <  y) + " " + (x >= y) );
+      System.out.println( !(x <= y) + " " + (x > y) );
+      System.out.println( !(x == y) + " " + (x != y) );
+      System.out.println( !(x != y) + " " + (x == y) );
+      System.out.println( !(x  > y) + " " + (x <= y) );
+      System.out.println( !(x >= y) + " " + (x < y) );
+
     }
   }
