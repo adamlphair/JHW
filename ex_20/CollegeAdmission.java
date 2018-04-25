@@ -28,6 +28,8 @@ public class CollegeAdmission {
       out.print ("UNLIKELY");
 
     else //below 390
-      out.print ("DENIED");   
+      out.print ("DENIED");
+
+    out.println();   
   }
 }
