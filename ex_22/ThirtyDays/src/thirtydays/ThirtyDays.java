@@ -28,6 +28,11 @@ public class ThirtyDays {
             case 1 : monthName = "January"; 
                 break; 
             case 2 : monthName = "February"; 
+                break;
+            case 3 : monthName = "March"; 
+                break;
+            case 4 : monthName = "April"; 
+                break;   
         }
     }
     
