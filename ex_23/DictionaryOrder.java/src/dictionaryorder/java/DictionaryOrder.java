@@ -24,6 +24,8 @@ public class DictionaryOrder {
         
         if (name.compareTo("c++") < 0 )
             System.out.println(name + " comes BEFORE c++"); 
+        if (name.compareTo("c++") == 0)
+            System.out.println("c++ isn't a made-up language!");
         
     }
     
